@@ -7,7 +7,9 @@ private:
 public:
 	int power;
 	Firebat();
-	void atk();
-	void doWalk();
-	void doRun();
+	int hp;
+	Unit();
+	virtual void doWalk();
+	virtual void doRun();
+	virtual void doStatus();
 };
