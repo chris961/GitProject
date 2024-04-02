@@ -4,16 +4,16 @@
 
 int main()
 {
-	Marine* mar = new Marine();
-	Firebat* fire = new Firebat();
+	Marine* unit1 = new Marine();
+	Firebat* unit2 = new Firebat();
 
-	mar->doHpStatus();
-	mar->doPowerStatus();
-	mar->atk();
+	unit1->doWalk();
+	unit1->doRun();
+	unit1->doStatus();
 
-	fire->doHpStatus();
-	fire->doPowerStatus();
-	fire->atk();
+	unit2->doWalk();
+	unit2->doRun();
+	unit2->doStatus();
 
 	return 0;
 }
