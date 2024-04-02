@@ -4,9 +4,10 @@
 class Firebat :public Unit
 {
 private:
-	int power;
 public:
+	int power;
 	Firebat();
 	void atk();
-	void doPowerStatus();
+	void doWalk();
+	void doRun();
 };

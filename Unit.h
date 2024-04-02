@@ -3,10 +3,10 @@
 class Unit
 {
 private:
-	int hp;
 public:
+	int hp;
 	Unit();
-	void doWalk(const char* str);
-	void doRun(const char* str);
-	void doHpStatus();
+	virtual void doWalk();
+	virtual void doRun();
+	virtual void doStatus();
 };

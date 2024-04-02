@@ -4,9 +4,10 @@
 class Marine:public Unit
 {
 private:
-	int power;
 public:
+	int power;
 	Marine();
 	void atk();
-	void doPowerStatus();
+	void doWalk();
+	void doRun();
 };
