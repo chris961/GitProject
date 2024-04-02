@@ -7,7 +7,7 @@ private:
 public:
 	int power;
 	Marine();
-	void atk();
 	void doWalk();
 	void doRun();
+	void doStatus();
 };
